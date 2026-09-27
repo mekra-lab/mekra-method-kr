@@ -2,6 +2,10 @@
 type: Pattern
 title: 연구와 다국어 배포의 동기화
 description: 공통 지식의 정본과 공개 범위를 유지하며 언어별 배포판의 의미를 맞춘다
+sources:
+  - id: application-link-fix
+    resource: https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca
+    title: 적용 안내의 내재화 링크 보완
 ---
 
 # 연구와 다국어 배포의 동기화
@@ -48,4 +52,6 @@ CC0 적용과 이후 내용 추가 시에는 해당 내용에 대한 권한과 �
 
 [피드백](feedback.md)이나 직접 수정에서 공통 지식의 개선이 발견되면 dev의 관련 개념에 반영한 뒤 필요한 배포판으로 돌려보낸다. 언어별 표현 문제는 해당 판에서 해결할 수 있다. 배포판의 수정 내용을 비교하지 않고 덮어쓰거나, 같은 지식을 서로 독립적으로 관리하는 [정본](source-of-truth.md)으로 갈라놓지 않는다.
 
-2026-09-20의 [적용 안내 링크 보완](https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca)은 이 흐름의 실제 사례다. 영문판에만 있던 내재화 개념 링크가 판 사이의 파일 목적지 대응 검사에서 드러났고, 문맥에 유용한 연결로 판단해 dev와 한국어판에도 반영했다. 이 사례는 차이를 검토해 공통 지식으로 되돌린 과정을 보여주며, 다른 도메인에서의 효과까지 입증하지는 않는다.
+2026-09-20의 적용 안내 링크 보완은 이 흐름의 실제 사례다.[^application-link-fix] 영문판에만 있던 내재화 개념 링크가 판 사이의 파일 목적지 대응 검사에서 드러났고, 문맥에 유용한 연결로 판단해 dev와 한국어판에도 반영했다. 이 사례는 차이를 검토해 공통 지식으로 되돌린 과정을 보여주며, 다른 도메인에서의 효과까지 입증하지는 않는다.
+
+[^application-link-fix]: [한국어판 적용 안내의 변경 커밋](https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca). 링크를 보완한 실제 변경의 근거다.

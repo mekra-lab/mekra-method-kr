@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "ko",
-  "source_commit": "600b608dc168a64e633f53574e10982eb8ffd0e6",
+  "source_commit": "31462662057b07dd027bc557c2cfe55ecd094b1d",
   "manifest_sha256": "30fb37cdf93496301aa636188d1ceb9d3f44a9866253e6cfc32cfeb1ee5b71be",
-  "reviewed_at": "2026-09-27T00:11:39.4035090Z",
+  "reviewed_at": "2026-09-27T00:32:54.3888027Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -37,13 +37,13 @@
     },
     {
       "path": "okf/operating-principles.md",
-      "source_sha256": "7f82a8264e7266a960f1df0c83be13cd8dbb2d15ba6168ca697fd270269d6543",
-      "target_sha256": "7f82a8264e7266a960f1df0c83be13cd8dbb2d15ba6168ca697fd270269d6543"
+      "source_sha256": "715cc06f33ec4c54ed9947c3c6cce2ebf4bc7d096cfe00f200de8e2f659304ee",
+      "target_sha256": "715cc06f33ec4c54ed9947c3c6cce2ebf4bc7d096cfe00f200de8e2f659304ee"
     },
     {
       "path": "okf/agent-autonomy.md",
-      "source_sha256": "84f5c1915a24c91b4beaac786323be54510c946765e186ae4b7d6050bfc4c576",
-      "target_sha256": "84f5c1915a24c91b4beaac786323be54510c946765e186ae4b7d6050bfc4c576"
+      "source_sha256": "11c453fae3a3f9274449a965094e32b5cd251db04805993b69acd7160b6f3a6f",
+      "target_sha256": "11c453fae3a3f9274449a965094e32b5cd251db04805993b69acd7160b6f3a6f"
     },
     {
       "path": "okf/self-erasure.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "okf/adoption.md",
-      "source_sha256": "e066722d7bebb97e1402cd7ca3a327f2efed78366f016b8d30bc90dc94a6a38b",
-      "target_sha256": "e066722d7bebb97e1402cd7ca3a327f2efed78366f016b8d30bc90dc94a6a38b"
+      "source_sha256": "477cf314dc665960a24607373fe8fbf5f046363ebe723c1db365fddff12b2d1a",
+      "target_sha256": "477cf314dc665960a24607373fe8fbf5f046363ebe723c1db365fddff12b2d1a"
     },
     {
       "path": "okf/feedback.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "bcf5ac12b49dd0c52ab5537785d190bca01a56c5e0282bed682707095a11ed47",
-      "target_sha256": "bcf5ac12b49dd0c52ab5537785d190bca01a56c5e0282bed682707095a11ed47"
+      "source_sha256": "1000788e3aba7a30b7f409bbe1d05253633a581544ef502d1b0a7926705856c7",
+      "target_sha256": "1000788e3aba7a30b7f409bbe1d05253633a581544ef502d1b0a7926705856c7"
     },
     {
       "path": "facets/README.md",

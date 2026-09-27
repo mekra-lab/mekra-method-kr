@@ -2,19 +2,23 @@
 type: Principle
 title: OKF 운영 원칙
 description: 정본의 책임과 필요한 맥락을 함께 유지하는 자체 운영 원칙
+sources:
+  - id: okf-spec-v02
+    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
+    title: Open Knowledge Format v0.2
 ---
 
 # OKF 운영 원칙
 
 [자율 판단](agent-autonomy.md)을 출발점으로 삼고, 아래 운영 원칙은 목적과 맥락에 맞게 해석하고 적용한다. 사실·근거·사용자 의도·권한과 대상의 제약을 판단의 조건으로 유지하며, 개별 적용의 선택과 일반 원칙의 개정은 구분한다.
 
-기준: [Open Knowledge Format 공식 명세](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md)
+형식 기준: [현재 OKF 기준과 검토한 명세](../versions/current.md)
 
 OKF는 선별된 지식을 개념과 관계의 형태로 내재화하기 위해 사용한다. 단순한 문서 인덱스나 원자료 위치 목록으로 만들지 않는다.
 
 ## 번들 위치
 
-OKF는 지식 표현 형식이며 번들의 디렉터리 이름을 정하지 않는다. [공식 명세의 번들 구조](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md#3-bundle-structure)는 저장소 전체나 더 큰 저장소의 하위 디렉터리를 번들로 사용할 수 있게 한다. `okf/`는 필수 이름이나 공식 권장 표준이 아니며, 이 저장소의 사용을 생태계 전체의 확립된 관례로 일반화하지 않는다.
+OKF는 지식 표현 형식이며 번들의 디렉터리 이름을 정하지 않는다. 공식 명세의 번들 구조는 저장소 전체나 더 큰 저장소의 하위 디렉터리를 번들로 사용할 수 있게 한다.[^okf-spec-v02] `okf/`는 필수 이름이나 공식 권장 표준이 아니며, 이 저장소의 사용을 생태계 전체의 확립된 관례로 일반화하지 않는다.
 
 이 저장소는 OKF 자체를 연구하며 채택한 지식을 연구 자료·템플릿·도구와 구분하기 위해 `okf/`를 사용한다. 다음은 이 저장소에서 선택한 역할 구분이다. 다른 대상의 번들 위치와 이름은 그 목적과 기존 구조에 맞게 [판단](adoption.md)한다.
 
@@ -39,3 +43,5 @@ OKF는 지식 표현 형식이며 번들의 디렉터리 이름을 정하지 않
 그 밖의 구조, 분량, 링크, 메타데이터와 서술 방식은 공식 명세와 실제 문맥에 따라 자율적으로 판단한다.
 
 이 원칙은 공식 형식 위에서 선택한 자체 운영 방침이다. OKF의 자연어 맥락과 유연한 관계 표현을 활용하기 위해 [자율 판단](agent-autonomy.md)을 우선하며, [내재화](knowledge-internalization.md)의 깊이는 실제 재사용 가치로 정한다. 정본의 책임은 [정본 관리](source-of-truth.md), 변경에 따른 연계 갱신은 [맥락 파급](context-propagation.md)에서 설명한다.
+
+[^okf-spec-v02]: [OKF v0.2 §3: 번들 구조](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#3-bundle-structure). 형식 설명의 근거이며, 위의 자체 운영 원칙을 명세가 요구한다는 뜻은 아니다.

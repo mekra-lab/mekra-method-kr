@@ -2,6 +2,10 @@
 type: Concept
 title: OKF 적용 판단
 description: 대상의 현재 상태, 필요한 변화와 적용 범위를 판단하고 이후의 지식 운영까지 연결한다
+sources:
+  - id: okf-spec-v02
+    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
+    title: Open Knowledge Format v0.2
 ---
 
 # OKF 적용 판단
@@ -57,7 +61,7 @@ Mekra Method를 적용한다는 것은 대상 저장소를 이해하고, 채택�
 
 `MEKRA.md`의 기본 위치는 저장소 루트다. 저장소의 지식 운영 맥락을 설명하고 하나 이상의 번들로 연결하기에 적합하다. 번들 자체를 독립적으로 복사·배포하며 운영 맥락도 함께 이동해야 한다면 번들 루트에 둘 수 있다. 저장소 자체가 번들이면 두 위치가 같다. 위치는 운영 맥락이 적용되는 범위와 함께 이동할 단위를 기준으로 정하고, 에이전트 진입 지침과 파일 내부 링크를 실제 위치에 맞춘다.
 
-번들 안에 포함하는 경우에는 형식도 맞춘다. [현재 기준 OKF 명세의 예약 파일 규칙](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames)은 `index.md`와 `log.md` 외의 Markdown 파일을 개념 문서로 취급한다. 따라서 번들에 속하는 `MEKRA.md`에는 `type` frontmatter가 필요하다. `type: Playbook`은 운영 안내를 표현하는 자체 선택의 예이며, `MEKRA.md`라는 이름에 별도 공식 형식 예외가 있는 것은 아니다.
+번들 안에 포함하는 경우에는 형식도 맞춘다. 현재 기준 OKF 명세의 예약 파일 규칙은 `index.md`와 `log.md` 외의 Markdown 파일을 개념 문서로 취급한다. 따라서 번들에 속하는 `MEKRA.md`에는 `type` frontmatter가 필요하다.[^okf-spec-v02] `type: Playbook`은 운영 안내를 표현하는 자체 선택의 예이며, `MEKRA.md`라는 이름에 별도 공식 형식 예외가 있는 것은 아니다.
 
 진입점은 상세 원칙과 절차를 계속 쌓는 곳이 아니다. 재사용할 판단 근거는 관련 개념에 내재화하고, 진입점에는 해당 저장소의 고유 맥락과 탐색 경로를 남긴다. 분리할 때는 기존 설명을 옮겨 변경 책임을 명확히 하며, 파일의 존재만으로 자동 로딩이나 실제 사용을 보장하지 않는다. [템플릿](../templates/README.md#진입점-구성-선택)은 두 구성을 선택해 적용하는 방법을 제공한다.
 
@@ -94,3 +98,5 @@ Mekra Method를 적용한다는 것은 대상 저장소를 이해하고, 채택�
 적용 이후의 저장소 전체 작업 방식에 도움이 된다면 선택적 운영 선호도 제안할 수 있다. 문서형 부가 산출물의 Markdown 원본 우선, 산출물에서 새로 확정된 지식의 OKF 환류, 미지정 선택에서 권장안 우선, 큰 작업 뒤 지속 지식 검토, 파생 산출물의 근거 경로 유지 등이 예다. 이는 대상과 사용자에게 실익이 있는 항목만 고르고, 합의되거나 위임된 내용만 루트 `AGENTS.md` 같은 지속 지침에 남긴다. 이미 OKF 운영 원칙이 요구하는 정본 관리·맥락 파급·원자료 구분 등을 선택 기능처럼 다시 묻지는 않는다. facet은 이런 원칙을 다시 요구하는 규칙이 아니다.
 
 운영 인계에서 재사용할 발견을 [피드백으로 연결](feedback.md)할 수 있다. 이후 실제 사용을 되짚을 때도 가이드를 따른 정도보다 어떤 조건에서 판단과 운영에 도움이 됐는지 살핀다. 확인 가능한 [참고 기준](../versions/README.md)과 실제 반영 범위를 남기면 당시 가이드의 영향과 이후의 자율적 변화를 구분하는 데 도움이 된다. 이는 가이드의 유용성과 한계를 연구에 돌려보내는 선택적 활동이다. 적용 과정의 자율 변형 자체를 보고 대상으로 만들지 않으며, 외부 전송 여부가 적용의 완료를 결정하지 않는다.
+
+[^okf-spec-v02]: [OKF v0.2 §3.1: 예약 파일](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames), [§4.1: frontmatter](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#41-frontmatter). `MEKRA.md` 진입점의 도입·위치 선택은 자체 적용 판단이다.
