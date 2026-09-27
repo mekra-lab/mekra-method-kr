@@ -15,6 +15,6 @@
 - 내부 판단에 사용할 수 있는 정보와 외부에 공개·전송할 수 있는 정보의 경계
 - 원자료나 판단의 삭제·철회가 관련 맥락에 미치는 영향
 
-현재는 [Knowledge-centered](knowledge-centered.md) 관점과 일반 OKF 원칙으로 먼저 설명해 봅니다. 실제 운영에서 반복되는 고유한 판단이 확인되기 전에는 별도 분류 체계나 구조를 요구하지 않습니다.
+현재는 [Knowledge-centered](knowledge-centered.md) 관점과 Mekra의 운영 원칙으로 먼저 설명해 봅니다. 실제 운영에서 반복되는 고유한 판단이 확인되기 전에는 별도 분류 체계나 구조를 요구하지 않습니다.
 
-최소 실험 구조는 [personal-context scaffold](../experiments/personal-context/scaffold/)에서 볼 수 있습니다. 실제 사례를 통해 기존 facet과 일반 OKF 개념만으로 충분한지, 독립 facet으로 남길 가치가 있는지를 판단합니다.
+최소 실험 구조는 [personal-context scaffold](../experiments/personal-context/scaffold/)에서 볼 수 있습니다. 실제 사례를 통해 기존 facet과 공통 개념만으로 충분한지, 독립 facet으로 남길 가치가 있는지를 판단합니다.

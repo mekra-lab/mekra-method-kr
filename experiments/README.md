@@ -16,4 +16,4 @@
 
 ## 진행 중인 실험
 
-- [Personal context](personal-context/README.md) - Knowledge-centered 관점과 일반 OKF 원칙이 개인 맥락을 충분히 설명하는지 최소 구조에서 검증한다.
+- [Personal context](personal-context/README.md) - Knowledge-centered 관점과 Mekra의 운영 원칙이 개인 맥락을 충분히 설명하는지 최소 구조에서 검증한다.

@@ -15,4 +15,4 @@ notes의 내용은 현재 운영 지침으로 간주하지 않습니다.
 - [자료 연결 방식과 선택 조건](corpus-connection-strategies.md) - 원문·추출물·인덱스·DB·API·온톨로지를 조합하는 조건과 검증 과제를 탐색한다.
 
 - [Personal context에서 드러난 지식 특성](personal-context-knowledge-properties.md) - 개인 맥락을 통해 정본 부재, 시간적 유효성, 공개 경계, 철회·삭제 파급을 탐색한다.
-- [Facet 관점과 경계](facet-perspectives.md) - facet이 일반 OKF 지식과 겹치지 않으면서 실제 판단 가치를 주는 경계를 탐색한다.
+- [Facet 관점과 경계](facet-perspectives.md) - facet이 공통 운영 지식과 겹치지 않으면서 실제 판단 가치를 주는 경계를 탐색한다.

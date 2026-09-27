@@ -28,7 +28,7 @@
 
 ### 통제와 제약
 
-공개 범위, 규제, 감사처럼 보이는 특성은 facet보다 일반 OKF pattern으로 승격될 가능성이 높다. 실제로 정보 접근과 외부 공개의 구분은 [공개 경계](../okf/disclosure-boundary.md)라는 일반 pattern으로 다룬다.
+공개 범위, 규제, 감사처럼 보이는 특성은 facet보다 공통 pattern으로 승격될 가능성이 높다. 실제로 정보 접근과 외부 공개의 구분은 [공개 경계](../okf/disclosure-boundary.md)라는 일반 pattern으로 다룬다.
 
 ## 아직 결정하지 않은 것
 

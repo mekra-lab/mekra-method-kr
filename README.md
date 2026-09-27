@@ -60,7 +60,7 @@ Mekra Method는 현재 Open Knowledge Format(OKF)을 기반으로 하며, 기존
 | [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra의 이름·기원·슬로건·핵심 아이디어·설계 선택 |
 | [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
 | [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
-| [`okf/`](okf/index.md) | OKF에 대한 이해, 운영 철학, 재사용 패턴과 개념 관계 |
+| [`okf/`](okf/index.md) | Mekra의 운영 원칙·패턴·적용 판단과 OKF 활용 지식 |
 | [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
 | [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
 | [`versions/`](versions/README.md) | 기준 OKF 버전, Mekra Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |

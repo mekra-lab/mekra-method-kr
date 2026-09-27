@@ -76,7 +76,7 @@ Mekra Method는 판단에 필요한 지식과 맥락을 유지하는 지향을, 
 
 OKF는 사람과 에이전트가 읽고 교환할 수 있도록 지식을 표현하는 형식입니다. Mekra는 현재 그 형식을 기반으로, 무엇을 기록하고 연결하며 어떻게 유지할지 판단하는 방법론입니다.
 
-공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)에 있습니다. Mekra의 운영 원칙은 그 명세 위에서 선택한 자체 판단이며, 공식 명세에 추가된 요구사항이나 별도의 확장 명세가 아닙니다. 이름이 달라져도 현재 구현 기반과 공식 명세의 책임은 그대로 구분합니다.
+공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)에 있습니다. Mekra의 운영 원칙은 그 명세 위에서 선택한 자체 판단이며, 공식 명세에 추가된 요구사항이나 별도의 확장 명세가 아닙니다. 이름이 달라져도 현재 구현 기반과 공식 명세의 책임은 그대로 구분합니다. 표현 방식과 번들 경계, 명세 기능을 선택하는 맥락은 [OKF의 역할과 활용](okf/okf-format.md)에서 설명합니다.
 
 ## 시작하기와 더 읽기
 
