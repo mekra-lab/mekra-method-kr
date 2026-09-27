@@ -93,7 +93,7 @@ Mekra Method는 [Mekra Lab](https://github.com/mekra-lab)이 연구·개발·운
 - 권장 기준: **OKF v0.2**
 - 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)
 
-공개판의 `main`은 최신 채택 내용이며, 릴리스는 비교·재현을 위한 고정 기준점입니다. Mekra Method 릴리스는 `okf-<명세 버전>-method-<순번>`으로 구분합니다. 이름의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
+공개판의 `main`은 마지막으로 검토·발행한 릴리스 상태를 유지하며, dev의 변경은 다음 릴리스를 위해 쌓습니다. 긴급 수정도 영향에 맞는 릴리스로 발행합니다. 새 Mekra Method 릴리스는 `mekra-X.Y`를 기본으로 하고 별도 패치 배포에는 `mekra-X.Y.Z`를 사용합니다. OKF 명세 기준은 별도로 기록하며 기존 태그는 보존합니다. 변경 수준의 의미와 실제 적용 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
 
 ## 라이선스
 

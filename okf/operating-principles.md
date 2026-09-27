@@ -6,7 +6,7 @@ description: 정본의 책임과 필요한 맥락을 함께 유지하는 자체 
 
 # OKF 운영 원칙
 
-에이전트의 자율적 판단을 우선한다. 아래 원칙은 판단의 출발점이며, 목적과 맥락에 따라 달리 적용할 수 있다.
+[자율 판단](agent-autonomy.md)을 출발점으로 삼고, 아래 운영 원칙은 목적과 맥락에 맞게 해석하고 적용한다. 사실·근거·사용자 의도·권한과 대상의 제약을 판단의 조건으로 유지하며, 개별 적용의 선택과 일반 원칙의 개정은 구분한다.
 
 기준: [Open Knowledge Format 공식 명세](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md)
 

@@ -8,6 +8,9 @@
 | 공식 명세 | [SPEC.md](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md) |
 | 확인일 | 2026-09-18 |
 | 확인한 SPEC blob | `c06e3eede0c910d0ecf12524c34204156f8795ac` |
+| 기준 명세 고정 링크 | [SPEC.md @ ad30107](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md) |
+
+공식 명세 링크는 upstream의 현재 문서를, 고정 링크는 위 blob과 일치하는 기준 문서를 엽니다. 2026-09-26 GitHub API로 고정 링크의 `SPEC.md` blob이 기록과 같음을 확인했습니다. 이는 기존 기준의 참조 경로 확인이며, 최신 upstream 전체의 재검토나 기준 변경은 아닙니다.
 
 ## 이 저장소의 적용
 

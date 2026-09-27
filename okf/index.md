@@ -14,8 +14,9 @@ OKF(Open Knowledge Format)는 사람과 에이전트가 함께 읽고 교환할 
 
 ## 운영 철학
 
+- [자율 판단](agent-autonomy.md) - 에이전트의 자율 판단을 출발점으로 삼고, 목적과 맥락에 맞게 다른 운영 원칙의 적용을 이끈다.
 - [운영 원칙](operating-principles.md) - 정본의 책임과 필요한 맥락을 함께 유지한다.
-- [자율 판단](agent-autonomy.md) - OKF의 자연어 맥락과 유연한 관계 표현을 활용하기 위해 자율 판단을 우선한다.
+- [자기소거](self-erasure.md) - 판단에 필요한 만큼 돕고, 필요가 줄어드는 만큼 지침과 방법론의 역할을 덜어낸다.
 - [지식 내재화](knowledge-internalization.md) - 새로운 지식의 의미와 영향을 관련 개념에 반영한다.
 
 ## 재사용 패턴과 경계
