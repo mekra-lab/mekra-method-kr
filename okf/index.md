@@ -4,12 +4,13 @@ okf_version: "0.2"
 
 # Mekra Method의 운영 지식
 
-Mekra Method가 채택한 운영 원칙·패턴·적용 판단의 정본이다. 현재 OKF로 표현하며, [OKF의 형식과 활용](okf-format.md)과 Mekra의 운영 선택을 구분한다. 운영 방향은 [운영 원칙](operating-principles.md)에서 시작한다.
+Mekra Method가 채택한 원칙의 상세 의미·근거·경계와 운영 패턴·적용 판단을 찾는 색인이다. 원칙의 목록·핵심·상호 관계는 [운영 원칙](../PRINCIPLES.md), 실제 적용 흐름은 [적용 안내](../APPLICATION.md)에서 시작한다. 이곳의 지식은 현재 OKF로 표현하며, [OKF의 형식과 활용](okf-format.md)과 Mekra의 운영 선택을 구분한다. OKF로 표현된 지식이라고 해서 그 판단 근거의 효력이 형식 설명에만 한정되는 것은 아니다.
 
 ## 운영 철학
 
 - [자율 판단](agent-autonomy.md) - 에이전트의 자율 판단을 출발점으로 삼고, 목적과 맥락에 맞게 다른 운영 원칙의 적용을 이끈다.
-- [운영 원칙](operating-principles.md) - 자율 판단을 바탕으로 정본과 맥락을 유지하고 구조·지침의 필요를 다시 판단한다.
+- [인식적 차이의 보존](epistemic-distinctions.md) - 자료와 사용자의 주장·관점·불확실성에서 판단에 의미가 있는 차이를 보존한다.
+- [운영 원칙](../PRINCIPLES.md) - 자율 판단을 바탕으로 정본과 맥락을 유지하고 구조·지침의 필요를 다시 판단한다.
 - [자기소거](self-erasure.md) - 판단에 필요한 만큼 돕고, 필요가 줄어드는 만큼 지침과 방법론의 역할을 덜어낸다.
 - [지식 내재화](knowledge-internalization.md) - 새로운 지식의 의미와 영향을 관련 개념에 반영한다.
 

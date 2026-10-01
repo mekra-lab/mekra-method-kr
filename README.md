@@ -30,7 +30,7 @@ Mekra Method는 AI 에이전트가 자료와 목적을 바탕으로 무엇을 �
 
 Mekra는 세부 작업 순서를 미리 지정하기보다 판단 근거가 되는 지식을 구성하고 유지하는 데 우선순위를 둡니다. 에이전트는 실제로 읽은 근거와 맥락을 바탕으로 목적과 상황에 맞는 작업 방식을 판단합니다.
 
-판단의 근거는 [정본과 맥락](okf/source-of-truth.md), [지식 내재화](okf/knowledge-internalization.md), [맥락 파급](okf/context-propagation.md), [에이전트의 자율 판단](okf/agent-autonomy.md), [운영 원칙](okf/operating-principles.md)에 있습니다.
+원칙의 핵심과 관계는 [운영 원칙](PRINCIPLES.md)에서, 상세한 이유와 적용 경계는 연결된 [운영 지식](okf/index.md)에서 확인합니다.
 
 ## 사용하는 법
 
@@ -66,14 +66,15 @@ Mekra Method는 현재 지식 표현에 Open Knowledge Format(OKF)을 사용합�
 | 위치 | 역할 |
 | --- | --- |
 | [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra의 이름·기원·슬로건·핵심 아이디어·설계 선택 |
-| [`APPLICATION.md`](APPLICATION.md) | 대상 탐색, 적용 판단과 문답, 반영 및 완료 후 사용 안내 |
+| [`PRINCIPLES.md`](PRINCIPLES.md) | 채택한 원칙의 목록·핵심·상호 관계와 상세 개념으로의 연결 |
+| [`APPLICATION.md`](APPLICATION.md) | 적용의 진입점: 대상 탐색, 필요한 판단 근거의 참조, 반영·확인·운영 인계 |
 | [`FEEDBACK.md`](FEEDBACK.md) | 적용·장기 운영 경험의 조사, 피드백 작성과 전송 안내 |
-| [`okf/`](okf/index.md) | Mekra의 운영 원칙·패턴·적용 판단과 OKF 활용 지식 |
+| [`okf/`](okf/index.md) | 현재 OKF로 표현한 원칙의 상세 근거·경계, 운영 패턴·적용 판단과 형식 활용 지식 |
 | [`facets/`](facets/README.md) | 대상의 성질에서 중요한 판단을 찾는 얇은 관점 |
 | [`templates/`](templates/README.md) | 프로젝트에 복사한 뒤 문맥에 맞게 고치는 최소 뼈대 |
 | [`versions/`](versions/README.md) | 기준 OKF 버전, Mekra Method 릴리스와 실제 참고 기준, 마이그레이션 기록 |
 | [`experiments/`](experiments/README.md) | 가설과 검증 중인 방법 |
-| [`notes/`](notes/README.md) | 아직 정리되지 않은 관찰과 고찰 |
+| [`notes/`](notes/README.md) | 연구·관찰·질문과 판단의 배경·후속 기록 |
 
 ## 연구와 적용 지식
 
@@ -81,7 +82,7 @@ Mekra Method는 현재 지식 표현에 Open Knowledge Format(OKF)을 사용합�
 
 [공개 범위와 언어별 책임](okf/distribution.md)에 따라 배포판을 갱신합니다. 마지막으로 검토한 원본과 배포 파일의 기준점은 [동기화 기록](SYNC.json)에 남깁니다.
 
-채택한 판단 근거는 `okf/`에 두고, `facets/`는 관련 판단을 찾는 탐색 관점, `templates/`는 선택 가능한 적용 뼈대로 둡니다. `notes/`와 `experiments/`는 연구 자료이며 미채택 내용은 기본 적용 근거로 삼지 않습니다. 실제 운영에서 얻은 관찰은 이곳에 남기고, 재사용할 만한 결론을 관련 개념과 적용 자료에 반영합니다.
+채택한 원칙의 핵심과 관계는 `PRINCIPLES.md`, 상세 판단 근거는 `okf/`에 둡니다. `facets/`는 관련 판단을 찾는 탐색 관점, `templates/`는 선택 가능한 적용 뼈대입니다. `notes/`와 `experiments/`는 연구 자료이며 미채택 내용은 기본 적용 근거로 삼지 않습니다. 실제 운영에서 얻은 관찰은 이곳에 남기고, 재사용할 만한 결론을 관련 개념과 적용 자료에 반영합니다.
 
 적용 중 발견한 가이드의 한계나 재사용할 개선은 [피드백](FEEDBACK.md)으로 돌아올 수 있습니다. 실제 사용 후에는 대상 저장소에서 다음처럼 요청할 수 있습니다.
 

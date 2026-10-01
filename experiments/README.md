@@ -14,6 +14,8 @@
 
 [적용 피드백](../okf/feedback.md)은 비교하거나 재현할 가설의 출발점이 될 수 있습니다. 제보된 결과와 실험으로 확인한 결과를 구분하고, 확인된 조건과 한계를 관련 개념 및 적용 자료에 반영합니다.
 
-## 진행 중인 실험
+## 자료 대기 중인 실험
 
-- [Personal context](personal-context/README.md) - Knowledge-centered 관점과 Mekra의 운영 원칙이 개인 맥락을 충분히 설명하는지 최소 구조에서 검증한다.
+- [Personal context](personal-context/README.md) - scaffold만 준비했고 실제 실행은 하지 않았다. 사용할 자료·허용 범위·과제가 마련되면 기존 원칙과 관점으로 충분한지 검증한다.
+
+이 목록에 있다는 사실을 진행 중인 실행으로 취급하지 않는다. 설계·자료 준비와 실행·결과 기록을 구분한다.
