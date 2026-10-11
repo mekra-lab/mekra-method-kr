@@ -2,7 +2,7 @@
 type: Example
 title: Core concept
 description: 이 개념이 무엇인지 한 문장으로 설명합니다.
-# 필요한 경우 적용 중인 OKF 명세의 다른 속성을 선택해 추가합니다.
+# 대상의 자료와 사용 목적에 맞게 속성을 구성하고, 필요하면 고유 속성을 정의합니다.
 ---
 
 # Core concept
