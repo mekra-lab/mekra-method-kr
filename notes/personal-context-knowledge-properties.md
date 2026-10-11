@@ -4,9 +4,7 @@
 
 채택한 일반 원칙은 아래 정본 연결로 보존한다. 남은 개인 맥락의 추가 요구는 [실험](../experiments/personal-context/README.md)에 합쳐 관찰하며 독립 병렬 과제로 두지 않는다. 사용할 자료·허용 범위·확인할 질문이 마련될 때 재개하고, 대기 중에 구조나 분류를 늘리지 않는다.
 
-이 노트는 `personal-context`를 독립 facet으로 채택하기 전에, 개인 맥락을 다루면서 기존 Mekra 운영 원칙이 어디에서 충분하지 않은지 탐색하기 위한 작업 문서다.
-
-아래에서 채택된 일반 원칙은 관련 개념으로 연결하고, 남은 질문은 확정된 원칙이나 형식적 분류 체계로 취급하지 않는다. 실제 개인 맥락 저장소를 운영하면서 반복되는 요구와 실패를 관찰한 뒤, 일반화 가능한 내용을 `okf/` 또는 facet에 반영한다.
+이 노트는 개인 맥락에서 기존 Mekra 운영 원칙으로 충분하지 않은 부분을 탐색한다. [Personal context preview](../facets/personal-context.md)는 연구 진입점으로 두었으며, 독립 facet의 채택이나 실제 개인 자료의 운영 검증은 아직 하지 않았다. 아래에는 정본에 반영한 일반 판단과 실제 자료에서 살필 추가 요구를 함께 남긴다.
 
 ## 출발 가설
 
@@ -49,7 +47,7 @@
 - Observation / Self-Stated / Hypothesis / Preference 같은 고정 분류
 - `state/`, `patterns/`, `people/`, `relationships/` 등의 강제 디렉터리 구조
 - 반복 횟수만으로 지식 승격 여부를 결정하는 프로토콜
-- `personal-context` 독립 facet
+- `personal-context` preview의 정식 facet 채택
 
 실제 사용에서 이런 구분이 반복적으로 필요해지면 그때 구조화한다.
 
