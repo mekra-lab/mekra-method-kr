@@ -1,5 +1,5 @@
 ---
-type: Example
+type: Example # 필수. 실제 개념 유형으로 바꿉니다.
 title: Core concept
 description: 이 개념이 무엇인지 한 문장으로 설명합니다.
 # 대상의 자료와 사용 목적에 맞게 속성을 구성하고, 필요하면 고유 속성을 정의합니다.

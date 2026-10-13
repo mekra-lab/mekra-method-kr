@@ -38,6 +38,6 @@ Mekra의 운영 원칙은 에이전트가 다음 작업에서도 필요한 사�
 
 ## OKF와 실제 적용
 
-Mekra는 현재 [OKF의 표현 방식](okf/okf-format.md)을 활용한다. 이 문서의 운영 원칙은 그 위에서 채택한 Mekra의 판단 기준이다. 공식 형식의 요구와 자체 운영 선택은 구분하며, 명세 기준은 [현재 OKF 기준](versions/current.md)에 둔다.
+Mekra는 현재 [OKF를 필수 지식 표현 형식](okf/okf-format.md)으로 사용한다. 기존 자료와 정본 전체를 변환할 필요는 없으며, Mekra 지식은 기존 OKF를 활용하거나 OKF 형식으로 구성한다. 이 문서의 운영 원칙은 그 위에서 채택한 Mekra의 판단 기준이다. 공식 형식의 요구와 자체 운영 선택은 구분하며, 명세 기준은 [현재 OKF 기준](versions/current.md)에 둔다.
 
-실제 적용은 [적용 안내](APPLICATION.md)에서 시작한다. 대상의 현재 상태와 작업 범위, 번들 위치와 진입점 선택의 상세 근거는 [적용 판단](okf/adoption.md)에서 다룬다. 이 저장소의 디렉터리 배치는 [저장소 구성](README.md#구조)에서 확인한다.
+실제 적용은 [적용 안내](APPLICATION.md)에서 시작한다. 대상의 현재 상태와 완료 범위는 [적용 판단](okf/adoption.md), 번들 위치와 진입점의 책임은 [구조와 발견](okf/structure-and-discovery.md)에서 다룬다. 이 저장소의 디렉터리 배치는 [저장소 구성](README.md#구조)에서 확인한다.
