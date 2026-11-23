@@ -3,9 +3,9 @@ type: Concept
 title: Mekra의 구조와 발견
 description: 번들 위치와 논리적 운영 범위를 정하고 개별 진입점과 여러 Mekra의 발견 경로를 유지한다
 sources:
-  - id: okf-spec-v02
-    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
-    title: Open Knowledge Format v0.2
+  - id: okf-spec-v03
+    resource: https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md
+    title: Open Knowledge Format v0.3
 ---
 
 # Mekra의 구조와 발견
@@ -32,7 +32,7 @@ sources:
 
 논리적 루트는 해당 Mekra의 운영 범위와 함께 이동할 단위로 정한다. 저장소 전체를 하나의 Mekra로 운영하면 루트 `MEKRA.md`를 사용하고, 지식 번들은 `mekra/` 등 적합한 위치에 둘 수 있다. 저장소 안에서 특정 영역을 독립된 Mekra로 운영한다면 `mekra/MEKRA.md` 같은 해당 영역의 진입점을 둔다. 기존 정본이 `docs/`에 있다는 사실만으로 Mekra의 운영 범위나 진입점도 그 아래로 한정하지 않는다. 하나의 Mekra가 여러 OKF 번들이나 외부 문서·DB를 연결할 수도 있으므로 모든 지식을 같은 물리 디렉터리 안에 넣을 필요는 없다. 파일을 쓰지 않는 환경에서는 같은 역할을 하는 페이지 등으로 진입점을 연결한다.
 
-번들 안에 포함하는 경우에는 형식도 맞춘다. 현재 기준 OKF 명세의 예약 파일 규칙은 `index.md`와 `log.md` 외의 Markdown 파일을 개념 문서로 취급한다. 따라서 번들에 속하는 `MEKRA.md`에는 `type` frontmatter가 필요하다.[^okf-spec-v02] `type: Playbook`은 운영 안내를 표현하는 자체 선택의 예이며, `MEKRA.md`라는 이름에 별도 공식 형식 예외가 있는 것은 아니다.
+번들 안에 포함하는 경우에는 형식도 맞춘다. 현재 기준 OKF 명세에서 `type`이 없는 Markdown은 번들에 있어도 개념으로 읽히지 않는다. 번들에 속하는 `MEKRA.md`가 지식으로 발견되도록 `type` frontmatter를 둔다.[^okf-spec-v03] `type: Playbook`은 운영 안내를 표현하는 자체 선택의 예이며, `MEKRA.md`라는 이름에 별도 공식 형식 예외가 있는 것은 아니다.
 
 진입점은 상세 원칙과 절차를 계속 쌓는 곳이 아니다. 재사용할 판단 근거는 관련 개념에 내재화하고, 진입점에는 해당 Mekra의 고유 맥락과 탐색 경로를 남긴다. OKF의 `index.md`는 번들의 지식 목록을, `MEKRA.md`는 그 지식을 어떤 범위와 맥락에서 운영하는지 안내하며 서로 연결한다. 파일의 존재만으로 자동 로딩이나 실제 사용을 보장하지 않으므로 실제 에이전트의 진입 경로를 확인한다. [템플릿](../templates/README.md#진입점-구성-선택)은 위치와 연결을 대상에 맞추는 예시를 제공한다.
 
@@ -48,4 +48,4 @@ Mekra의 구조와 지식은 환경·사용자가 위임한 범위 안에서 자
 
 인덱스의 링크나 설명이 실제 구조와 어긋나면 대상과 정본을 확인해 바로잡는다. 중첩된 환경에서도 어느 범위를 안내하는지 드러내며 같은 목록을 불필요하게 독립 관리하지 않는다. Markdown을 기본 예시로 사용하되 고정 필드·전역 등록부·자동 탐색 프로토콜을 추가로 요구하지 않는다.
 
-[^okf-spec-v02]: [OKF v0.2 §3.1: 예약 파일](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames), [§4.1: frontmatter](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#41-frontmatter). `MEKRA.md` 진입점의 도입·위치 선택은 자체 적용 판단이다.
+[^okf-spec-v03]: [OKF v0.3 §3.1: 예약 파일](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#31-reserved-filenames), [§3.2: 개념과 그 밖의 파일](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#32-concepts-assets-and-other-files), [§4.1: frontmatter](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#41-frontmatter). `MEKRA.md` 진입점의 도입·위치 선택은 자체 적용 판단이다.

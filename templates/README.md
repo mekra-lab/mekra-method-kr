@@ -1,6 +1,6 @@
 # Templates
 
-이 템플릿은 Mekra Method의 운영 예시이며, 지식의 표현에는 [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format)을 사용합니다. 형식은 공식 명세를 따르고, 구조와 지침은 각 저장소의 목적에 맞게 조정합니다. 적용 버전과 명세 기준점은 [현재 버전 기준](../versions/current.md)을 참고합니다.
+이 템플릿은 Mekra Method의 운영 예시이며, 지식의 표현에는 [Open Knowledge Format](https://github.com/open-knowledge-format/open-knowledge-format)을 사용합니다. 형식은 공식 명세를 따르고, 구조와 지침은 각 저장소의 목적에 맞게 조정합니다. 적용 버전과 명세 기준점은 [현재 버전 기준](../versions/current.md)을 참고합니다.
 
 템플릿은 적용을 돕는 예시입니다. 필요한 부분을 활용하거나 변형하며, 특히 개념 문서의 유형·속성·본문 구성은 대상 자료와 사용 목적에 맞게 설계합니다.
 
@@ -36,7 +36,7 @@ type: Playbook
 ---
 ```
 
-저장소 전체를 OKF 번들로 사용하는 경우에는 같은 번들에 포함하는 `AGENTS.md`나 `MEKRAS.md` 등 다른 운영 Markdown에도 개념 문서의 형식 규칙이 적용됩니다.
+저장소 전체를 OKF 번들로 사용하면 `AGENTS.md`나 `MEKRAS.md` 같은 다른 운영 Markdown도 번들에 들어갑니다. OKF v0.3에서는 frontmatter가 없는 이런 문서를 그대로 둘 수 있으며, 개념으로 읽히지 않습니다. 지식으로 다룰 문서에만 `type`을 둡니다. OKF v0.2만 지원하는 도구를 함께 쓴다면 번들 안의 모든 Markdown에 `type`이 필요할 수 있으므로 [현재 OKF 기준](../versions/current.md)을 확인합니다.
 
 기존 AGENTS의 지식 운영 절로 시작했다면 유효한 설명을 `MEKRA.md`로 옮기고 AGENTS에는 연결과 저장소 전체 운영 지침을 남깁니다. 기존 진입점은 새 파일을 중복 생성하기 전에 목적·범위와 위치를 확인합니다. 이미 운영 원칙을 담은 개념이 있다면 진입점에서 연결하고 템플릿의 일반 설명을 줄입니다. 적용 기준을 남길 때는 [실제 참고 기준](../versions/README.md#실제-참고-기준을-남길-때)을 따릅니다. 템플릿에는 확인되지 않은 릴리스 번호를 미리 채우지 않습니다.
 

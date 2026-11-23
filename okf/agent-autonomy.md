@@ -3,9 +3,9 @@ type: Principle
 title: 에이전트의 자율 판단
 description: 에이전트의 자율 판단을 출발점으로 삼고, 목적과 맥락에 맞게 다른 운영 원칙의 적용을 이끈다
 sources:
-  - id: okf-spec-v02
-    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
-    title: Open Knowledge Format v0.2
+  - id: okf-spec-v03
+    resource: https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md
+    title: Open Knowledge Format v0.3
 ---
 
 # 에이전트의 자율 판단
@@ -26,7 +26,7 @@ sources:
 
 ## OKF를 활용하는 이유
 
-[OKF](okf-format.md)는 최소한의 구조화된 메타데이터와 자유로운 본문, Markdown 링크로 지식을 표현한다. 관계의 구체적인 의미는 링크 주변의 자연어가 전달하며, 개념의 종류나 본문 구성을 고정된 분류 체계로 모두 규정하지 않는다.[^okf-spec-v02]
+[OKF](okf-format.md)는 최소한의 구조화된 메타데이터와 자유로운 본문, Markdown 링크로 지식을 표현한다. 관계의 구체적인 의미는 링크 주변의 자연어가 전달하며, 개념의 종류나 본문 구성을 고정된 분류 체계로 모두 규정하지 않는다.[^okf-spec-v03]
 
 이 구조에서는 사람이 이해하는 설명을 에이전트도 읽고, 조건·예외·관계를 실제 질문에 맞게 해석할 수 있다. 모든 관계와 경우의 수를 미리 스키마나 분기로 정의하지 않아도 새로운 지식을 기존 개념에 연결할 여지가 생긴다. 우리는 이 유연성을 살리기 위해 고성능 LLM의 문맥 해석과 자율 판단을 신뢰한다. 이는 공식 명세가 요구하는 태도가 아니라, 그 표현 방식을 활용하기 위해 선택한 운영 철학이다.
 
@@ -54,4 +54,4 @@ sources:
 
 OKF의 사람이 읽을 수 있는 형식, 이식성, 버전 관리 용이성은 LLM 없이도 유효하다. 자율 판단을 우선하는 이유는 특히 에이전트가 자연어 지식망을 해석하고 유지하는 장점을 충분히 활용하기 위해서다.
 
-[^okf-spec-v02]: [OKF v0.2 §4: 개념 형식](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#4-concept-documents), [§6.1: 관계의 표현](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#61-links-between-concepts). 이 형식에서 자율 판단을 우선하는 철학은 Mekra의 자체 선택이다.
+[^okf-spec-v03]: [OKF v0.3 §4: 개념 형식](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#4-concept-documents), [§6.1: 관계의 표현](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#61-links-between-concepts). 이 형식에서 자율 판단을 우선하는 철학은 Mekra의 자체 선택이다.

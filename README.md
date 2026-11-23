@@ -57,7 +57,7 @@ Mekra Method는 현재 지식 표현에 Open Knowledge Format(OKF)을 사용합�
 
 기존 OKF 자료에는 “기존 OKF 자료에 Mekra Method를 적용해줘”라고 요청할 수 있습니다. 형식 자체의 갱신이 필요하면 “OKF 명세 변경의 영향을 검토하고 필요한 부분을 갱신해줘”라고 요청할 수 있습니다. 기존 지식을 보존하며 목적과 범위에 맞게 해석하고, 구체적인 판단은 [적용 안내](APPLICATION.md)와 [버전 안내](versions/README.md)에서 이어갑니다.
 
-이 가이드는 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다. 공식 형식의 정본은 [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format)입니다.
+이 가이드는 명세의 복사본이나 모든 프로젝트가 따라야 할 프레임워크가 아닙니다. 공식 형식의 정본은 [open-knowledge-format/open-knowledge-format](https://github.com/open-knowledge-format/open-knowledge-format)입니다.
 
 글로벌 영문판: [mekra-lab/mekra-method](https://github.com/mekra-lab/mekra-method). 예시와 적용 맥락은 특정 개인·조직을 식별하지 않도록 일반화해 서술합니다.
 
@@ -99,7 +99,7 @@ Mekra Method는 [Mekra Lab](https://github.com/mekra-lab)이 연구·개발·운
 
 ## 현재 기준
 
-- 권장 기준: **OKF v0.2**
+- 권장 기준: **OKF v0.3** (새로 구축하는 지식). 기존 v0.2 번들은 그대로 유효합니다.
 - 확인일과 검증한 명세 기준점: [`versions/current.md`](versions/current.md)
 
 최신 정식 릴리스를 기본 적용 기준으로 사용합니다. 공개 `main`에는 적용 의미를 유지하는 설명·링크·사용성 개선을 검토 후 수시로 반영할 수 있으며, 적용 판단이나 핵심 원칙을 바꾸는 변경은 릴리스와 함께 반영합니다. 개선을 정식 적용 기준에 포함하려면 새 릴리스를 발행합니다. 새 Mekra Method 릴리스는 `mekra-X.Y`를 기본으로 하고 별도 패치 배포에는 `mekra-X.Y.Z`를 사용합니다. OKF 명세 기준은 별도로 기록하며 기존 태그는 보존합니다. 변경 수준의 의미와 실제 참고 커밋을 남기는 방법은 [버전 안내](versions/README.md)에 있습니다.
